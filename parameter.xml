@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Qedge">
+<test name="Login">
+<parameter name="Url" value="http://orangehrm.qedgetech.com/">
+</parameter>
+<parameter name="username" value="Admin">
+</parameter>
+<parameter name="password" value="Qedge123!@#">
+</parameter>
+<classes>
+<class name="july10.OrangeHRM">
+</class>
+</classes>
+</test>
+</suite>

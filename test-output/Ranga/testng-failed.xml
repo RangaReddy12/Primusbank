@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Ranga]">
+  <test name="Report(failed)">
+    <classes>
+      <class name="july9.UsingDepends">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="branches"/>
+          <include name="employee"/>
+          <include name="users"/>
+          <include name="adminLogin"/>
+          <include name="roles"/>
+        </methods>
+      </class> <!-- july9.UsingDepends -->
+    </classes>
+  </test> <!-- Report(failed) -->
+</suite> <!-- Failed suite [Ranga] -->

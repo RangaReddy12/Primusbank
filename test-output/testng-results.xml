@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
+      <![CDATA[Login Fail]]>
+    </line>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
+      <![CDATA[Login Fail]]>
+    </line>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
+      <![CDATA[Login Fail]]>
+    </line>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
+      <![CDATA[Login Fail]]>
+    </line>
+  </reporter-output>
+  <suite name="gridtesting" duration-ms="103889" started-at="2021-08-07T05:00:59Z" finished-at="2021-08-07T05:02:43Z">
+    <groups>
+    </groups>
+    <test name="chrometest" duration-ms="51515" started-at="2021-08-07T05:00:59Z" finished-at="2021-08-07T05:01:51Z">
+      <class name="aug7.Grid">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:aug7.Grid@5c7fa833]" name="setUp" is-config="true" duration-ms="13905" started-at="2021-08-07T10:30:59Z" finished-at="2021-08-07T10:31:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VerifyLogin(java.lang.String, java.lang.String)[pri:0, instance:aug7.Grid@5c7fa833]" name="VerifyLogin" duration-ms="17093" started-at="2021-08-07T10:31:13Z" data-provider="supplydata" finished-at="2021-08-07T10:31:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qedge123!@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+        <test-method status="PASS" signature="VerifyLogin(java.lang.String, java.lang.String)[pri:0, instance:aug7.Grid@5c7fa833]" name="VerifyLogin" duration-ms="6616" started-at="2021-08-07T10:31:30Z" data-provider="supplydata" finished-at="2021-08-07T10:31:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qedge123!@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Fail]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+        <test-method status="PASS" signature="VerifyLogin(java.lang.String, java.lang.String)[pri:0, instance:aug7.Grid@5c7fa833]" name="VerifyLogin" duration-ms="6938" started-at="2021-08-07T10:31:37Z" data-provider="supplydata" finished-at="2021-08-07T10:31:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qedge123!@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+        <test-method status="PASS" signature="VerifyLogin(java.lang.String, java.lang.String)[pri:0, instance:aug7.Grid@5c7fa833]" name="VerifyLogin" duration-ms="6276" started-at="2021-08-07T10:31:44Z" data-provider="supplydata" finished-at="2021-08-07T10:31:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Fail]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:aug7.Grid@5c7fa833]" name="tearDown" is-config="true" duration-ms="480" started-at="2021-08-07T10:31:50Z" finished-at="2021-08-07T10:31:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- aug7.Grid -->
+    </test> <!-- chrometest -->
+    <test name="firefoxtest" duration-ms="51652" started-at="2021-08-07T05:01:52Z" finished-at="2021-08-07T05:02:43Z">
+      <class name="aug7.Grid">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:aug7.Grid@ae45eb6]" name="setUp" is-config="true" duration-ms="20351" started-at="2021-08-07T10:31:52Z" finished-at="2021-08-07T10:32:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VerifyLogin(java.lang.String, java.lang.String)[pri:0, instance:aug7.Grid@ae45eb6]" name="VerifyLogin" duration-ms="11083" started-at="2021-08-07T10:32:12Z" data-provider="supplydata" finished-at="2021-08-07T10:32:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qedge123!@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+        <test-method status="PASS" signature="VerifyLogin(java.lang.String, java.lang.String)[pri:0, instance:aug7.Grid@ae45eb6]" name="VerifyLogin" duration-ms="5140" started-at="2021-08-07T10:32:23Z" data-provider="supplydata" finished-at="2021-08-07T10:32:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qedge123!@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Fail]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+        <test-method status="PASS" signature="VerifyLogin(java.lang.String, java.lang.String)[pri:0, instance:aug7.Grid@ae45eb6]" name="VerifyLogin" duration-ms="6574" started-at="2021-08-07T10:32:28Z" data-provider="supplydata" finished-at="2021-08-07T10:32:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qedge123!@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+        <test-method status="PASS" signature="VerifyLogin(java.lang.String, java.lang.String)[pri:0, instance:aug7.Grid@ae45eb6]" name="VerifyLogin" duration-ms="5900" started-at="2021-08-07T10:32:35Z" data-provider="supplydata" finished-at="2021-08-07T10:32:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Fail]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:aug7.Grid@ae45eb6]" name="tearDown" is-config="true" duration-ms="2593" started-at="2021-08-07T10:32:41Z" finished-at="2021-08-07T10:32:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- aug7.Grid -->
+    </test> <!-- firefoxtest -->
+  </suite> <!-- gridtesting -->
+</testng-results>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Akhi" parallel="classes">
+  <test name="Report1">
+    <classes>
+      <class name="july9.MultipleTimes"/>
+        </classes>
+  </test> <!-- Report -->
+  <test name="Report2">
+    <classes>
+        <class name="july9.UsingDepends"/>
+    </classes>
+  </test> <!-- Report -->
+</suite> <!-- Akhi -->
